@@ -1,0 +1,65 @@
+﻿.header {
+    height: 90%;
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/Content/Images/publicaciones/Ed_fondo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title-card {
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.tipo-art {
+    position: absolute;
+    top: 38%;
+    left: 40%;
+    transform: translate(-40%,-38%);
+    font-size: 3vw;
+    text-transform: uppercase;
+    color: #00FFE8;
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.barra-repro {
+    height: 10%;
+    width: auto;
+    background-color: black;
+}
+
+
+/* Parte Inferior */
+
+.inferior{
+    height: 100%;
+}
+
+.parte-inferior {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(/Content/Images/publicaciones/Ed_fondo.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    left: 0;
+    right: 0;
+    filter: blur(5px);
+    -webkit-filter: blur(5px)
+}
+
+.img-per {
+    height: 6vw;
+    width: 6vw;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    transform: translate(-50%,-10%);
+    z-index: -2;
+}

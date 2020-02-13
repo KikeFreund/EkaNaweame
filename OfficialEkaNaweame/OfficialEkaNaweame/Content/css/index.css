@@ -1,0 +1,110 @@
+﻿/*Importar fuentes*/
+
+@font-face{
+    font-family:ekanawe; 
+    src: url(/Content/fonts/Gotham/Gotham-Black.otf);
+}
+
+@font-face {
+    font-family: ekanaweparrafo;
+    src: url(/Content/fonts/Gotham/Gotham-Book.otf);
+}
+
+
+
+
+/*Apartado uno*/
+.que-somos{
+    margin-top: 3%;
+}
+
+#separador {
+    margin-top: 4%;
+}
+
+#titulos-eka {
+    font-family: ekanawe;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #447678;
+}
+
+#texto-eka {
+    font-family: ekanaweparrafo;
+    
+}
+
+/*Apartado dos*/
+.objetivos-inversion {
+    margin-top: 3%;
+    background-color: #447678;
+}
+
+#titulos-eka-blanco {
+    font-family: ekanawe;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+}
+
+#subtitulo-eka-blanco {
+    font-family: ekanaweparrafo;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: white;
+}
+
+#texto-eka-blanco {
+    font-family: ekanaweparrafo;
+    color: white;
+}
+
+/*Apartado tres*/
+
+#titulos-eka-amarillo {
+    font-family: ekanawe;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #FFBE00;
+}
+
+#img-retri {
+    width: 150px;
+}
+
+/*Los proyectos*/
+
+.los-proyectos {
+    margin-top: 3%;
+    background-color: #FFBE00;
+}
+
+#subtitulo-eka-amarillo {
+    font-family: ekanaweparrafo;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #FFBE00;
+}
+
+#titulos-eka-blanco-min {
+    font-family: ekanaweparrafo;
+    font-size: 2rem;
+    color: white;
+}
+
+#img-proyectos {
+    width: 280px;
+}
+
+/*Diciplinas*/
+
+.diciplinas {
+    margin-top: 3%;
+}
+
+#titulos-eka-rosa {
+    font-family: ekanawe;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #FF637F;
+}
