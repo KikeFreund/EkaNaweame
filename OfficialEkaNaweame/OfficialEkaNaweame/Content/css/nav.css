@@ -4,10 +4,15 @@
 }
 
 .fondo {
-    background-image: url('/Content/Images/Logo Eká sin fondo.png');
-    background-position: 70%, -60vh;
-    background-size: 80%;
+    background-image: url('/Content/Images/logo-nofondo.png');
+    background-position: 40%, -60vh;
+    background-size: 60%;
     background-repeat: no-repeat;
+}
+
+.a{
+    font-weight: bold;
+    color: black;
 }
 
 
