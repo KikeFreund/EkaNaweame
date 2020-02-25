@@ -7,16 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OfficialEkaNaweame.Datos
+namespace OfficialEkaNaweame.Models
 {
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class ekanaweameEntities : DbContext
+    public partial class ekaEntities : DbContext
     {
-        public ekanaweameEntities()
-            : base("name=ekanaweameEntities")
+        public ekaEntities()
+            : base("name=ekaEntities")
         {
         }
     
@@ -25,5 +25,10 @@ namespace OfficialEkaNaweame.Datos
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
+        public virtual DbSet<AspNetRoles> AspNetRoles { get; set; }
+        public virtual DbSet<AspNetUserClaims> AspNetUserClaims { get; set; }
+        public virtual DbSet<AspNetUserLogins> AspNetUserLogins { get; set; }
+        public virtual DbSet<AspNetUsers> AspNetUsers { get; set; }
     }
 }

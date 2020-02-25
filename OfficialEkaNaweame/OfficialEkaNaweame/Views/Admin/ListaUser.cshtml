@@ -1,0 +1,35 @@
+﻿@model List<OfficialEkaNaweame.Models.ListaUsuarios>
+
+@{
+    ViewBag.Title = "ListaUser";
+}
+
+<h2>ListaUser</h2>
+
+<div class="row">
+    <div class="col-md-12">
+        <table>
+            <tr>
+                <th>Correo</th>
+                <th>Tipo de cuenta</th>
+            </tr>
+            @foreach (var oElemento in Model)
+            {
+                if (@oElemento.Emailconfirmado == true)
+                {
+                    <tr>
+                        <td>@oElemento.Correo</td>
+                        <td>@oElemento.Emailconfirmado</td>
+                    </tr>
+                }
+                else
+                {
+                    <tr>
+                        
+                    </tr>
+                }
+
+            }
+        </table>
+    </div>  
+</div>
